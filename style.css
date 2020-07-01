@@ -11,8 +11,52 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
+    padding-left: 2%;
     
 }
 .half-width img{
     width: 100%;
+}
+.background-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+section{
+    height: 500px;
+}
+.hire-button{
+    text-decoration: none;
+    background-color: chocolate;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.s-e{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 10px;
+    height: 75%;
+    background-color: white;
+}
+.e-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#f-stack{
+    border-left: 10px solid;
+    border-image:linear-gradient(lightSalmon,tomato);
+    border-image-slice:1;
+    
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
